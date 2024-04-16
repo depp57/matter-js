@@ -121,11 +121,11 @@ var Common = require('../core/Common');
         element.addEventListener('mousedown', mouse.mousedown, { passive: true });
         element.addEventListener('mouseup', mouse.mouseup, { passive: true });
         
-        element.addEventListener('wheel', mouse.mousewheel, { passive: false });
+        // element.addEventListener('wheel', mouse.mousewheel, { passive: false });
         
-        element.addEventListener('touchmove', mouse.mousemove, { passive: false });
-        element.addEventListener('touchstart', mouse.mousedown, { passive: false });
-        element.addEventListener('touchend', mouse.mouseup, { passive: false });
+        // element.addEventListener('touchmove', mouse.mousemove, { passive: false });
+        // element.addEventListener('touchstart', mouse.mousedown, { passive: false });
+        // element.addEventListener('touchend', mouse.mouseup, { passive: false });
     };
 
     /**

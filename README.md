@@ -1,3 +1,8 @@
+# This fork is used by my [portfolio](https://github.com/depp57/portfolio-2024).
+
+It is a lightweight version of the original matter-js library with a few modifications:
+- Deactivate touch events for mobile devices (in order to let the user scroll the page)
+
 <img alt="Matter.js" src="https://brm.io/matter-js/img/matter-js.svg" width="300">
 
 > *Matter.js* is a JavaScript 2D rigid body physics engine for the web
